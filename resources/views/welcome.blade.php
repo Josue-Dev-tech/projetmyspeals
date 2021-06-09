@@ -396,7 +396,7 @@
 
           <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="member">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              <img src="{{asset('assets/img/team/team-1.jpg')}} " class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Walter White</h4>
@@ -481,14 +481,14 @@
         </div>
 
         <div class="owl-carousel clients-carousel" data-aos="fade-up" data-aos-delay="100">
-          <img src="assets/img/clients/client-1.png" alt="">
-          <img src="assets/img/clients/client-2.png" alt="">
-          <img src="assets/img/clients/client-3.png" alt="">
-          <img src="assets/img/clients/client-4.png" alt="">
-          <img src="assets/img/clients/client-5.png" alt="">
-          <img src="assets/img/clients/client-6.png" alt="">
-          <img src="assets/img/clients/client-7.png" alt="">
-          <img src="assets/img/clients/client-8.png" alt="">
+          <img src="{{asset('assets/img/clients/client-1.png')}} " alt="">
+          <img src="{{asset('assets/img/clients/client-2.png')}} " alt="">
+          <img src="{{asset('assets/img/clients/client-3.png')}} " alt="">
+          <img src="{{asset('assets/img/clients/client-4.png')}} " alt="">
+          <img src="{{asset('assets/img/clients/client-4.png')}}" alt="">
+          <img src="{{asset('assets/img/clients/client-4.png')}}" alt="">
+          <img src="{{asset('assets/img/clients/client-4.png')}}" alt="">
+          <img src="{{asset('assets/img/clients/client-4.png')}}" alt="">
         </div>
 
       </div>
@@ -657,17 +657,17 @@
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="{{asset('assets/vendor/jquery/jquery.min.js')}} "></script>
+  <script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}} "></script>
+  <script src="{{asset('assets/vendor/jquery.easing/jquery.easing.min.js')}} "></script>
+  <script src="{{asset('assets/vendor/php-email-form/validate.js')}} "></script>
+  <script src="{{asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}} "></script>
+  <script src="{{asset('assets/vendor/venobox/venobox.min.js')}} "></script>
+  <script src="{{asset('assets/vendor/owl.carousel/owl.carousel.min.js')}} "></script>
+  <script src="{{asset('assets/vendor/aos/aos.js')}} "></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="{{asset('assets/js/main.js')}} "></script>
 
 </body>
 
