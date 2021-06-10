@@ -119,7 +119,7 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Services</h2>
-          <p>Check out the great services we offer</p>
+          <p>Nos services de qualités</p>
         </div>
 
         <div class="row">
